@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #ffffec;
+    background-color: #fffffc;
 }
 
 a {
@@ -33,6 +33,7 @@ ul {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
+    margin: 0px 20px;
 }
 
 .top div a {
@@ -43,7 +44,7 @@ ul {
     color: #e05616; 
 }
 
-.top div p {
+.top div div.separacion {
     user-select: none;
 }
 
@@ -56,7 +57,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: #e0b116;
+    background-color: #e0aa16;
     align-items: center;
     height: 80px;
 }
@@ -98,18 +99,17 @@ ul {
 .navegacion nav ul li a:hover {
     color: #e05616;
     border-bottom: .3rem solid #e05616;
+    border-radius: 5px;
 }
 
 /*Jumbotron*/
 .jumbotron {
-    border: 2px solid red;
-    height: 500px;
+    height: 450px;
     margin-top: 10px;
     background: url(./img/jumbotron.png) no-repeat center center/cover;   
 }
 
 .jumbo {
-    border: 2px solid red;
     width: 100%;
     height: 100%;
     display: flex;
@@ -119,10 +119,35 @@ ul {
     padding: 0 20px;
 }
 
-.jumbo .contenido {
-    border: 1px solid blue;
+.contenido {
+    background-color: #d3d3d3;
     width: 350px;
     height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    text-align: justify;
+}
+
+.info p {
+    width: 300px;
+}
+
+.formulario {
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario p {
+    width: 300px;
+    text-align: justify;
 }
 
 .formulario input {
@@ -130,6 +155,7 @@ ul {
     border: 1px solid lightgray;
     height: 30px;
     padding-left: 5px;
+    
 }
 
 /*Catálogos*/
