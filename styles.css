@@ -33,7 +33,14 @@ ul {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0px 20px;
+}
+
+.top div a {
+    z-index: 2;
+}
+
+.separacion {
+    display: flex;
 }
 
 .top div a {
@@ -71,12 +78,13 @@ ul {
     margin-left: 40px;
 }
 
-.navegacion nav ul {
+.menu {
     width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin-right: 40px;
+    transition: all 300ms;
 }
 
 .navegacion nav ul li {
@@ -100,6 +108,39 @@ ul {
     color: #e05616;
     border-bottom: .3rem solid #e05616;
     border-radius: 5px;
+}
+/*Hamburguesa*/
+.bars__menu {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+    display: none;
+}
+
+.bars__menu span {
+    display: block;
+    width: 100%;
+    height:3px;
+    background: #fffffc;
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    transition: all 300ms;
+}
+
+/*Animación hamburguesa*/
+.activeline1__bars-menu {
+    transform: rotate(45deg) translate(-2px, 2px);
+}
+
+.activeline2__bars-menu {
+    opacity: 0;
+    margin-left: -30px;
+}
+
+.activeline3__bars-menu {
+    transform: rotate(-45deg) translate(-4px, 1px);
 }
 
 /*Jumbotron*/
@@ -273,4 +314,59 @@ ul {
     display: flex;
     justify-content: center;
     height: 40px;
+}
+
+/*Responsive*/
+@media (max-width: 700px) {
+    .top {
+        padding: 20px 10px;
+    }
+    
+    .top p {
+        font-size: 14px;
+    }
+
+    .top div {
+        font-size: 14px;
+        width: 210px;
+        transform: translateX(-5px);
+    }
+
+    .navegacion {
+        padding: 0;
+    }
+
+    .navegacion img {
+        width: 180px;
+        margin-left: 40px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        background-color: #e0aa16;
+        width: 250px;
+        height: 640px;
+        margin-top: 560px;
+        transform: translateX(270px);
+    }
+
+    .menu_active {
+        transform: translateX(20px);
+    }
+
+    .menu li {
+        padding: 10px;
+    }
+   
+    .inicio {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .bars__menu {
+        display: contents;
+        display: flex;
+        flex-direction: column;
+    }
 }
