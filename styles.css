@@ -348,7 +348,7 @@ ul {
         width: 250px;
         height: 640px;
         margin-top: 560px;
-        transform: translateX(270px);
+        transform: translateX(290px);
     }
 
     .menu_active {
@@ -369,4 +369,67 @@ ul {
         display: flex;
         flex-direction: column;
     }
+
+    .jumbotron {
+        height: 750px;
+    }
+
+    .jumbo {
+        flex-wrap: wrap-reverse;
+    }
+
+    .contenido {
+        width: 450px;
+        height: 250px;
+    }
+    /*
+.jumbo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.contenido {
+    background-color: #d3d3d3;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    text-align: justify;
+}
+
+.info p {
+    width: 300px;
+}
+
+.formulario {
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario p {
+    width: 300px;
+    text-align: justify;
+}
+
+.formulario input {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding-left: 5px;
+    
+}
+    */
 }
