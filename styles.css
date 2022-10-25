@@ -9,6 +9,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fffffc;
     overflow-x: hidden;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 a {
