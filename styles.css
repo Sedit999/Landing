@@ -327,15 +327,15 @@ ul {
     width: 200px;
 }
 
-.f-menu ul li {
+.f-menu ul li, .f-tel ul li {
     margin-top: 10px;
 }
 
-.f-menu ul li a {
+.f-menu ul li a, .f-tel ul li a {
     color: #000000;
 }
 
-.f-menu ul li a:hover {
+.f-menu ul li a:hover, .f-tel ul li a:hover {
     text-decoration: underline;
     color: #424242;
 }
