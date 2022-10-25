@@ -383,12 +383,12 @@ ul {
         background-color: #e0aa16;
         width: 190px;
         height: 640px;
-        top: -999px;
-        position: relative;
+        margin-top: -999px;
+        
     }
 
     .menu_active {
-        transform: translateY(1300px);
+        transform: translateY(1000px);
     }
 
     .menu li {
@@ -396,7 +396,7 @@ ul {
     }
    
     .inicio {
-        margin-top: 80px;
+        margin-top: 70px;
         display: flex;
         justify-content: flex-start;
     }
