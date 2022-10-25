@@ -3,14 +3,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /*Esta linea quita el marcado azul al seleccionar un objeto*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fffffc;
-    overflow-x: hidden;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -87,7 +86,6 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-right: 40px;
     transition: all 300ms;
     z-index: 100;
 }
@@ -379,19 +377,18 @@ ul {
         margin-left: 40px;
     }
 
-
     .menu {
         display: flex;
         flex-direction: column;
         background-color: #e0aa16;
-        width: 250px;
+        width: 190px;
         height: 640px;
-        margin-top: 560px;
-        margin-right: -300px;
+        top: -999px;
+        position: relative;
     }
 
     .menu_active {
-        transform: translateX(-250px);
+        transform: translateY(1300px);
     }
 
     .menu li {
@@ -408,6 +405,7 @@ ul {
         display: contents;
         display: flex;
         flex-direction: column;
+        z-index: 1000;
     }
 
     /*jumbotron*/
@@ -426,7 +424,7 @@ ul {
     }
     /*Catálogos*/
     .wrapper {
-        grid-template-columns: repeat(1, 460px);
+        grid-template-columns: repeat(1, 390px);
     }
 
     .cat1 {    
@@ -448,7 +446,4 @@ ul {
         grid-column: 1;
         grid-row: 4/5;
     }
-    /*
-   
-    */
 }
