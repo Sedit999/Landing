@@ -2,6 +2,8 @@
 
 ![portada](./img/img__github/vp_pc.png)
 
+Ver la página -> https://sedit999.github.io/Landing/
+
 Esta página Landing está dividida en 7 secciones:
 - <a href="#top"> Top. </a>
 - <a href="#nav"> Navegación. </a>
@@ -36,7 +38,7 @@ Está sección de **Navegación** se encuentra dentro del contenido principal de
 
 ![jumbo](./img/img__github/jumbo.png)
 
-El jumbotrón en el lado izquierdo tiene una pequeña descripción de lo qué es la empresa, por la derecha se encuentra un pequeño formulario para poder recopilar información de clientes potenciales. El botón de *Enviar* tiene un efecto cuando se situa el cursor ahí.
+El **Jumbotrón** en el lado izquierdo tiene una pequeña descripción de lo qué es la empresa, por la derecha se encuentra un pequeño formulario para poder recopilar información de clientes potenciales. El botón de *Enviar* tiene un efecto cuando se situa el cursor ahí.
 
 ---
 ## <div id="cat"> Catálogos </div>
