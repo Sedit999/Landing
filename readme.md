@@ -32,33 +32,33 @@ La **Navegación** muetra un logo del lado izquierdo; del lado derecho muestra u
 Está sección de **Navegación** se encuentra dentro del contenido principal debido a que tiene la propiedad *sticky* y al colocar la **Navegación** en el *header* esta propiedad no funcionaba como se requería.
 
 ---
-## <div href="jumbo"> Jumbotrón </div>
+## <div id="jumbo"> Jumbotrón </div>
 
 ![jumbo](./img/img__github/jumbo.png)
 
 El jumbotrón en el lado izquierdo tiene una pequeña descripción de lo qué es la empresa, por la derecha se encuentra un pequeño formulario para poder recopilar información de clientes potenciales. El botón de *Enviar* tiene un efecto cuando se situa el cursor ahí.
 
 ---
-## <div href="cat"> Catálogos </div>
+## <div id="cat"> Catálogos </div>
 
 ![]()
 
 ---
-## <div href="art"> Artículo </div>
+## <div id="art"> Artículo </div>
 
 ![articulo](./img/img__github/articulo.png)
 
 El **Artículo** es un pequeño texto para ofrecer atención personalizada al cliente, este artículo está linkeado hacia el formulario para que el cliente pueda dejar sus datos y posteriormente se comuniquen con él de forma persolanizada.
 
 ---
-## <div href="soc"> Social </div>
+## <div id="soc"> Social </div>
 
 ![social](./img/img__github/social.png)
 
 La sección **Social** muestra las redes, cada icono se colorea cuando das click o pasas el cursor por encima
 
 ---
-## <div href="foo"> Footer </div>
+## <div id="foo"> Footer </div>
 
 ![footer](./img/img__github/footer.png)
 
