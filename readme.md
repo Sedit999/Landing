@@ -4,6 +4,10 @@
 
 Ver la página -> https://sedit999.github.io/Landing/
 
+La página está construida con **HTML**, **CSS** y **JS**.
+
+**NOTA**: **JavaScript** sólo se utilizó para la animación del menú responsivo.
+
 Esta página Landing está dividida en 7 secciones:
 - <a href="#top"> Top. </a>
 - <a href="#nav"> Navegación. </a>
@@ -14,10 +18,6 @@ Esta página Landing está dividida en 7 secciones:
 - <a href="#foo"> Footer. </a>
 
 Esta página sólo muestra el Landing, no te va llevar a ningún otro lado y el formulario tampoco funciona (aún). 
-
-La página está construida con **HTML**, **CSS** y **JS**.
-
-**NOTA**: **JavaScript** sólo se utilizó para la animación del menú responsivo.
 
 La página es responsiva, adaptable a tamaño computadora e inferior (Los resultados en pantalla superior a un monitor estandar son desconocidos).
 
