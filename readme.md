@@ -21,6 +21,8 @@ Esta página sólo muestra el Landing, no te va llevar a ningún otro lado y el 
 
 La página es responsiva, adaptable a tamaño computadora e inferior (Los resultados en pantalla superior a un monitor estandar son desconocidos).
 
+- <a href="#bocetos">Bocetos</a>
+
 ---
 ## <div id="top"> Top </div>
 
@@ -47,7 +49,14 @@ El **Jumbotrón** en el lado izquierdo tiene una pequeña descripción de lo qu�
 ---
 ## <div id="cat"> Catálogos </div>
 
-![]()
+![catalogo](./img/img__github/catalogo.png)
+![catalogo2](./img/img__github/catalogo2.png)
+
+En esta sección se muestran 4 de los catálogos en forma de mosaico.
+
+**NOTA**: Se duplicó una de las fotos debido a que hasta el momento sólo hay 3 imágenes y aún hay que revisar bien la resolución de las imágenes para que se ajusten bien y no se vean pixeleadas.
+
+Cada imagen es clickeable y al poner el cursor sobre cada imagen cambia el color del borde y el sombreado añadiendo más interactividad con la página.
 
 ---
 ## <div id="art"> Artículo </div>
@@ -70,4 +79,11 @@ La sección **Social** muestra las redes, cada icono se colorea cuando das click
 
 El **Footer** inclye el menú de navegación e información de contacto como lo es el correo y el teléfono. En la parte inferior del **Footer** se muestran los derechos.
 
+---
+---
 
+## <div id="bocetos"> Bocetos </div>
+
+![boceto1](./img/img__github/boceto1.png)
+![boceto2](./img/img__github/boceto2.png)
+![boceto3](./img/img__github/boceto_responsive.png)
